@@ -7,6 +7,6 @@
   1 Oktober 2020
   <addres>
 </p>
-<h5>Cara install <h5>
-- git clone  git@github.com:mahmudph/react-native-template.git
+<h5>Cara install <h5> <br>
+- git clone  git@github.com:mahmudph/react-native-template.git <br>
 - masuk kedalam project dan ketik <b>npm install </b>
