@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import { View, TouchableNativeFeedback } from 'react-native';
+import {StackNavigationOptions} from '@react-navigation/stack';
+import React from 'react';
+import {View, TouchableNativeFeedback} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-
-export const optionsScreen = (title: string) => {
+export const optionsScreen = (title: string): StackNavigationOptions => {
   return {
     title: title,
     headerStyle: {
@@ -23,12 +23,12 @@ export const optionsScreen = (title: string) => {
           paddingHorizontal: 5,
         }}>
         <View style={{paddingHorizontal: 10}}>
-          <TouchableNativeFeedback onPress={() => alert('hhhhh')}>
+          <TouchableNativeFeedback onPress={() => {}}>
             <Icon name="ios-mail" size={24} color="#FFF" />
           </TouchableNativeFeedback>
         </View>
         <View style={{paddingHorizontal: 10, marginRight: 20}}>
-          <TouchableNativeFeedback onPress={() => alert('Notification')}>
+          <TouchableNativeFeedback onPress={() => {}}>
             <Icon name="md-notifications" size={30} color="#FFF" />
           </TouchableNativeFeedback>
         </View>

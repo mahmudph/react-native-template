@@ -1,0 +1,45 @@
+{
+  "application_mode": "production",
+  "application_menu": {
+    "menuBackground": "#FFF",
+    "menuRow": [
+      {
+        "id": 4,
+        "title": "",
+        "icon": "",
+        "route": "",
+        "iconfrom": "",
+        "IconColor": "",
+        "fontSize": 24
+      },
+      {
+        "id": 5,
+        "title": "",
+        "icon": "",
+        "route": "",
+        "iconfrom": "",
+        "IconColor": "",
+        "fontSize": 24
+      },
+      {
+        "id": 6,
+        "title": "",
+        "icon": "",
+        "route": "",
+        "iconfrom": "",
+        "IconColor": "",
+        "fontSize": 24
+      }
+    ]
+  },
+  "env": {
+    "development": {
+      "host": "",
+      "api": {}
+    },
+    "production": {
+      "host": "",
+      "api": {}
+    }
+  }
+}
