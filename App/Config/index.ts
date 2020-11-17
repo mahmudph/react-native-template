@@ -1,9 +1,9 @@
-import iconImage from 'assets';
-import app_config from './application.json';
-import Routes from './routes';
-import {width, height} from './layout';
-import {ApplictionTheme, NavigationTheme} from './theme';
 import {LogBox} from 'react-native';
+import Routes from './routes';
+import iconImage from 'appAssets';
+import {width, height} from './layout';
+import app_config from './application.json';
+import {ApplictionTheme, NavigationTheme} from './theme';
 
 /* config by environment  */
 type IenvironmentTipe = 'development' | 'production';

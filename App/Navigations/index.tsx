@@ -1,11 +1,14 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import {ConfigApp} from 'appConfig';
 import {optionsScreen} from './config.screen';
-import {Home, Splashscreen} from 'containers';
-import {props_screen} from 'mocks';
-import {ConfigApp} from 'config';
+import {Home, Splashscreen} from 'appContainers';
+import {createStackNavigator} from '@react-navigation/stack';
+import {props_screen} from 'types/props_screen';
 
+/* create temp */
 const ApplicationStack = createStackNavigator<props_screen>();
+
+/* set appication navigation */
 const AplicationNavigation = () => {
   return (
     <ApplicationStack.Navigator>
@@ -18,10 +21,6 @@ const AplicationNavigation = () => {
         name={ConfigApp.Routes.SPLASHSCREEN}
         component={Splashscreen}
         options={optionsScreen('Home App')}
-      />
-      <ApplicationStack.Screen
-        name={ConfigApp.Routes.SPLASHSCREEN}
-        component={Home}
       />
     </ApplicationStack.Navigator>
   );

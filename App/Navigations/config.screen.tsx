@@ -1,7 +1,7 @@
-import {StackNavigationOptions} from '@react-navigation/stack';
 import React from 'react';
-import {View, TouchableNativeFeedback} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import {StackNavigationOptions} from '@react-navigation/stack';
+import {View, TouchableNativeFeedback} from 'react-native';
 
 export const optionsScreen = (title: string): StackNavigationOptions => {
   return {

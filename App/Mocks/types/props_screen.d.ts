@@ -1,10 +1,8 @@
-import {ConfigApp} from 'config';
+import {ConfigApp} from 'appConfig';
 
-type props_screen = {
+declare type props_screen = {
   [ConfigApp.Routes.SPLASHSCREEN]: undefined;
   [ConfigApp.Routes.HOME]: {
     screen_id: number;
   };
 };
-
-export default props_screen;

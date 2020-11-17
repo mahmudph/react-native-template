@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Navigation from 'routes';
-import {ConfigApp, NavigationTheme} from 'config';
+import Navigation from 'appRoutes';
+import {ConfigApp, NavigationTheme} from 'appConfig';
 import AppContext from './context/index';
 import {NavigationContainer} from '@react-navigation/native';
 

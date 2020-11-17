@@ -1,5 +1,5 @@
 {
-  "application_mode": "production",
+  "application_mode": "development",
   "application_menu": {
     "menuBackground": "#FFF",
     "menuRow": [
@@ -35,11 +35,15 @@
   "env": {
     "development": {
       "host": "",
-      "api": {}
+      "api": {
+        "login": "localhost:3000/api/login"
+      }
     },
     "production": {
       "host": "",
-      "api": {}
+      "api": {
+        "login": "localhost:3000/api/login"
+      }
     }
   }
 }
