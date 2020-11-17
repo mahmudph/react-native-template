@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'satu_data' do
+target 'abs_mobile' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
@@ -12,7 +12,7 @@ target 'satu_data' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'satu_dataTests' do
+  target 'abs_mobileTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -27,10 +27,10 @@ target 'satu_data' do
   end
 end
 
-target 'satu_data-tvOS' do
-  # Pods for satu_data-tvOS
+target 'abs_mobile-tvOS' do
+  # Pods for abs_mobile-tvOS
 
-  target 'satu_data-tvOSTests' do
+  target 'abs_mobile-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
