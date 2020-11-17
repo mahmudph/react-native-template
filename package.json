@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint .",
     "buid": "cd android && ./gredlew assembleRelease",
-    "bundel": "cd android && ./gredlew bundleRelease"
+    "bundel": "cd android && ./gredlew bundleRelease",
+    "rename_app": "npx react-native-rename"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.0",
