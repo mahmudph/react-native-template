@@ -6,6 +6,7 @@ import {StyleSheet} from 'react-native';
 
 const style = StyleSheet.create({
   /* some style in home  */
+  container: {},
 });
 
 export default style;

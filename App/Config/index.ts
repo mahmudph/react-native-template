@@ -1,7 +1,8 @@
-import iconImage from 'assets/index';
-import app_config from 'config/application.json';
-import Routes from 'config/routes';
-import {ApplictionTheme} from 'config/theme';
+import iconImage from 'assets';
+import app_config from './application.json';
+import Routes from './routes';
+import {width, height} from './layout';
+import {ApplictionTheme, NavigationTheme} from './theme';
 import {LogBox} from 'react-native';
 
 /* config by environment  */
@@ -38,4 +39,5 @@ const ConfigApp = {
 };
 
 /* export it  */
-export {environment, ConfigApp};
+export {environment, NavigationTheme, ConfigApp, width, height};
+export {default as Routes} from './routes';

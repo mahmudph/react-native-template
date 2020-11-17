@@ -1,4 +1,4 @@
-package com.satu_data;
+package com.abs_mobile;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "satu_data";
+    return "abs_mobile";
   }
 }

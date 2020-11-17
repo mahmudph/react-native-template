@@ -7,6 +7,8 @@ import {View} from 'react-native';
   1 oktober 2020
 
 */
-export const splashscreen = () => {
+const Splashscreen = () => {
   return <View></View>;
 };
+
+export default Splashscreen;

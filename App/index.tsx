@@ -1,12 +1,10 @@
-import Navigation from 'routes/index';
 import React, {Component} from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {State} from 'react-native-webview/lib/WebViewTypes';
-import {NavigationTheme} from 'config/theme';
+import Navigation from 'routes';
+import {ConfigApp, NavigationTheme} from 'config';
 import AppContext from './context/index';
-import {ConfigApp} from './Config';
+import {NavigationContainer} from '@react-navigation/native';
 
-export default class App extends Component<State> {
+export default class App extends Component {
   render() {
     return (
       <NavigationContainer theme={NavigationTheme}>
