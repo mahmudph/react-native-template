@@ -2,6 +2,12 @@
   "name": "abs_mobile",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "mahmud",
+    "email": "mahmud120398@gmail.com",
+    "url": "mahmudph.github.io/meblogs"
+  },
+  "description": "react-native template for fast development",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
